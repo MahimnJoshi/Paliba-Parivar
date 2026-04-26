@@ -1,0 +1,347 @@
+{
+  "name": "Umiyashankar Khemram Joshi",
+  "age": 99,
+  "born": "1930",
+  "death": "2029",
+  "occupation": "worker",
+  "children": [
+    {
+      "name": "Bhanuprasad Umiyashankar Joshi",
+      "age": 70,
+      "born": "15th-Feb-1939",
+      "occupation": "Don't know",
+      "children": [
+        {
+          "name": "Pravinben Arvindkumar Vyas",
+          "age": 63,
+          "born": "05th-Aug-1962",
+          "occupation": "House Wife",
+          "children": [
+            {
+                 "name": "Nirav Arvindkumar Vyas",
+                "age": 40,
+                "born": "11th-Oct-1985",
+                "occupation" : "Engineer",
+                "children":[
+                    {
+                        "name" : "Titiksha Niravkumar Vyas",
+                        "age" : 13,
+                        "born" : "13th-Nov-2012",
+                        "occupation":"Student"
+                    },
+                    {
+                        "name" : "Sparsh Niravkumar Vyas",
+                        "age" : 9,
+                        "born" : "09th-Mar-2016",
+                        "occupation":"Student"
+                    }
+
+                ]
+             },
+            { 
+                "name": "Vidhiben Gauravkumar Shah",
+                "age": 38,
+                "born": "07-11-1987",
+                "occupation":"Don't know"    
+            }
+          ]
+        },
+        {
+          "name":"Pallaviben Navneetkumar Pandya",
+          "age":61,
+          "born":"2nd-Nov-1964",
+          "occupation":"House Wife",
+          "children": [
+            {
+              "name":"Mithilesh Navneetkumar Pandya",
+              "age":37,
+              "born":"18th-Jul-1988",
+              "occupation":"Don't know",
+              "children": [
+                {
+                  "name": "Hitarthi Mithilesh Pandya",
+                  "age": 5,
+                  "born" : "18th-Aug-2020",
+                  "occupation":"still child"
+                },
+                {
+                  "name": "Hanvika Mithilesh Pandya",
+                  "age": 2,
+                  "born" : "ask",
+                  "occupation":"still child"
+                }
+              ]
+            },
+            {
+               "name":"Avni Vaibhavkumar Shelukar",
+              "age":41,
+              "born":"7th-May-1984",
+              "occupation":"Don't know"
+            }
+          ]
+        },
+        {
+          "name":"Diptiben Jiteshkumar Mehta",
+          "age":55,
+          "born":"30th-Jul-1970",
+          "occupation":"House Wife",
+          "children": [
+            {
+              "name":"Harsh Jiteshkumar Mehta",
+              "age":32,
+              "born":"11th-Oct-1993",
+              "occupation":"Don't know"
+            }
+          ]
+        },
+        {
+          "name":"Himanshubhai Bhanuprasad Joshi",
+          "age":53,
+          "born":"11th-Jul-1972",
+          "occupation":"ask",
+          "children": [
+            {
+              "name":"Aastha Himanshubhai Joshi",
+              "age":24,
+              "born":"8th-Sep-2001",
+              "occupation":"ask"
+            },
+            {
+              "name":"Saumya Himanshubhai Joshi",
+              "age":13,
+              "born":"14th-May-2012",
+              "occupation":"Student"
+            }
+          ]
+        },
+        {
+          "name":"Bhaveshbhai Bhanuprasad Joshi",
+          "age":51,
+          "born":"10th-Jan-1975",
+          "occupation":"ask",
+          "children": [
+            {
+              "name":"Jimit Bhaveshbhai Joshi",
+              "age":20,
+              "born":"1th-Jan-2006",
+              "occupation":"Student"
+            },
+            {
+              "name":"Sanvi Bhaveshbhai Joshi",
+              "age":16,
+              "born":"2nd-Oct-2009",
+              "occupation":"Student"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mahindrabhai Umiyashankar Joshi",
+      "age": 68,
+      "born":"19th-Jun-1942",
+      "death":"",
+      "occupation":"",
+      "children": [
+        {
+          "name": "Ashwinbhai Mahendrabhai Joshi",
+          "age": 60,
+          "born": "29th-Jan-1966",
+          "occupation":"",
+          "children": [
+            { 
+              "name": "Dr. Megal Pujankumar Jani",
+              "age" : 32,
+              "born": "21th-Apr-1994",
+              "occupation":"Doctor",
+              "children":[
+                {
+                  "name":"Durva Pujankumar Jani",
+                  "age" : 4,
+                  "born":"21th-Sep-2021",
+                  "occupation":"still child"
+                },
+                {
+                  "name":"Darbh Pujankumar Jani",
+                  "age" : 2,
+                  "born":"11th-Mar-2024",
+                  "occupation":"still child"
+                }
+              ]
+          }
+          ]
+        },
+        {
+          "name": "Amitbhai Mahendrabhai Joshi",
+          "age": 53,
+          "born": "24th-Oct-1972",
+          "occupation":"ask",
+          "children": [
+            {
+              "name": "Riri Amitbhai Joshi",
+            "age": 18,
+            "born": "19th-Aug-2007",
+            "occupation":"Student"
+            },
+            {
+              "name": "Manva Amitbhai Joshi",
+              "age": 15,
+              "born": "7th-Sep-2010",
+              "occupation":"Student"
+            }
+          ]
+        },
+        {
+          "name": "Kiranbhai Mahendrabhai Joshi",
+          "age": 48,
+          "born": "21th-May-1977",
+          "occupation":"Teacher",
+          "children": [
+            {
+              "name": "Fagun Kiranbhai Joshi",
+              "age": 20,
+              "born": "23th-Jun-2005",
+              "occupation":"Student"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vinodbhai Umiyashankar Joshi",
+      "age": 80,
+      "born": "24th-Oct-1945",
+      "occupation":"",
+      "children": [
+        {
+          "name": "Kalpeshkumar Vinodbhai Joshi",
+          "age" : 55,
+          "born" : "20th-Oct-1970",
+          "occupation" : "ask",
+          "children": [
+            {
+              "name": "Jay Kalpeshkumar Joshi",
+              "age" : 26,
+              "born": "18th-Oct-1999",
+              "occupation" : "ask"
+            },
+            {
+              "name": "Kesar Kalpeshkumar Joshi",
+              "age" : 24,
+              "born": "9th-Oct-2001",
+              "occupation" : "ask"
+            }
+          ]
+        },
+        {
+          "name": "Bhoomikaben Suhashkumar Upadyay",
+          "age" : 50,
+          "born" : "1st-Jan-1976",
+          "occupation" : "Housewife",
+          "children": [
+            {
+              "name": "Nishant Suhashkumar Upadyay",
+              "age" : 26,
+              "born" : "2nd-May-1999",
+              "occupation" : "Singer"
+            },
+            {
+              "name": "Harshil Suhashkumar Upadyay",
+              "age" : 20,
+              "born" : "21st-Nov-2005",
+              "occupation" : "Student"
+            }
+          ]
+        },
+        {
+           "name": "Bhavikkumar Vinodbhai Joshi",
+            "age" : 48,
+            "born" : "14th-Nov-1977",
+            "occupation" : "ask",
+            "children": [
+              {
+                "name": "Foram Bhavikkumar Joshi",
+                "age" : 18,
+                "born" : "7th-May-2007",
+                "occupation" : "Student"
+              },
+              {
+                "name": "Jaimin Bhavikkumar Joshi",
+              "age" : 12,
+              "born" : "26th-Jun-2013",
+              "occupation" : "Student"
+              }
+            ]
+        }
+      ]
+    },
+    {
+      "name": "Rameshchandra Umiyashankar Joshi",
+      "age": 77,
+      "born":"16th-Jun-1948",
+      "occupation":"Retired Auditor",
+      "children": [
+        {
+          "name": "Hetalben Mukeshkumar Joshi",
+          "age": 52,
+          "born": "8th-Feb-1974",
+          "occupation":"Teacher",
+          "children": [
+            {
+               "name": "Malay Mukeshkumar Joshi",
+               "age": 27,
+               "born": "23th-Aug-1998",
+               "occupation": "Civil Engineer"
+            },
+            {
+              "name": "Bindra Mukeshkumar Joshi",
+               "age": 21,
+               "born": "12th-Jul-2004",
+               "occupation": "Student"
+            }
+          ]
+        },
+        {
+          "name": "Chetankumar Rameshchandra Joshi",
+          "age": 49,
+          "born": "11th-Sep-1976",
+          "occupation":"Accountant",
+          "children": [
+            {
+              "name": "Shrey Chetankumar Joshi",
+              "age": 21,
+              "born": "7th-Jul-2004",
+              "occupation":"Student"
+            },
+            {
+              "name": "Mahimn Chetankumar Joshi",
+              "age": 19,
+              "born": "3rd-Jun-2006",
+              "occupation":"Student"
+            }
+          ]
+        },
+        {
+          "name": "Jalpaben Jigneshkumar Vyas",
+          "age": 47,
+          "born": "8th-Nov-1978",
+          "occupation":"House Wife",
+          "children": [
+            {
+              "name": "Devam Jigneshkumar Vyas",
+              "age": 22,
+              "born": "21th-Jun-2003",
+              "occupation":"Student"
+            },
+            {
+              "name": "Satvam Jigneshkumar Vyas",
+              "age": 17,
+              "born": "2nd-Jan-2009",
+              "occupation":"Student"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

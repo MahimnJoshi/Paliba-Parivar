@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Paliba Parivar 🌳</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Paliba Parivar</h1>
+    <p class="mobile-hint">Tap circles for details • Pinch or drag to move</p>
+  </header>
+
+  <div id="tree"></div>
+
+  <div id="popup">
+    <div class="popup-content">
+      <span id="closeBtn">&times;</span>
+      <h3 id="p-name"></h3>
+      <p><b>Age:</b> <span id="p-age"></span></p>
+      <p><b>Born:</b> <span id="p-born"></span></p>
+      <div id="death-container">
+        <p><b>Death:</b> <span id="p-death"></span></p>
+      </div>
+      <p><b>Occupation:</b> <span id="p-occupation"></span></p>
+    </div>
+  </div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
