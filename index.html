@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Paliba Parivar 🌳</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Paliba Parivar 3D</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
 </head>
 <body>
+    <header class="ui-overlay">
+        <h1>PALIBA PARIVAR</h1>
+        <p>3D Family Constellation</p>
+    </header>
 
-  <header>
-    <h1>Paliba Parivar</h1>
-    <p class="mobile-hint">Tap circles for details • Pinch or drag to move</p>
-  </header>
+    <div id="tree"></div>
 
-  <div id="tree"></div>
-
-  <div id="popup">
-    <div class="popup-content">
-      <span id="closeBtn">&times;</span>
-      <h3 id="p-name"></h3>
-      <p><b>Age:</b> <span id="p-age"></span></p>
-      <p><b>Born:</b> <span id="p-born"></span></p>
-      <div id="death-container">
-        <p><b>Death:</b> <span id="p-death"></span></p>
-      </div>
-      <p><b>Occupation:</b> <span id="p-occupation"></span></p>
+    <div id="popup">
+        <div class="popup-content">
+            <span id="closeBtn" title="Close">&times;</span>
+            <h3 id="p-name"></h3>
+            <div class="popup-info">
+                <p><b>Age:</b> <span id="p-age"></span></p>
+                <p><b>Born:</b> <span id="p-born"></span></p>
+                <p><b>Occupation:</b> <span id="p-occupation"></span></p>
+            </div>
+        </div>
     </div>
-  </div>
 
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <script src="script.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 </html>
