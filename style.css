@@ -4,7 +4,7 @@ body {
     color: white;
     overflow: hidden;
     font-family: 'Segoe UI', sans-serif;
-    touch-action: none; /* Prevents double-tap zoom on mobile */
+    touch-action: none;
 }
 
 .ui-overlay {
@@ -17,24 +17,31 @@ body {
 }
 
 h1 {
-    font-size: 1.8rem; /* Scaled down for mobile */
+    font-size: 2.2rem;
     font-weight: 900;
-    letter-spacing: 6px;
-    margin: 0;
+    letter-spacing: 8px;
     background: linear-gradient(to right, #00ffcc, #00ffee);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin: 0;
 }
 
 .label {
     color: #00ffcc;
-    font-size: 11px; /* Smaller labels for mobile */
+    font-size: 12px;
     font-weight: 700;
     background: rgba(0, 15, 15, 0.95); 
-    padding: 4px 10px;
-    border-radius: 15px; 
-    border: 1px solid rgba(0, 255, 204, 0.5);
-    pointer-events: none;
+    padding: 5px 12px;
+    border-radius: 12px; 
+    border: 1px solid rgba(0, 255, 204, 0.6);
+    white-space: nowrap;
+    text-shadow: 0 0 5px rgba(0, 255, 204, 0.5);
+}
+
+.partner-label {
+    color: #ffcc00;
+    border-color: rgba(255, 204, 0, 0.6);
+    background: rgba(20, 15, 0, 0.95);
 }
 
 #popup {
@@ -43,35 +50,32 @@ h1 {
     display: none;
     justify-content: center;
     align-items: center;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.85);
     backdrop-filter: blur(10px);
     z-index: 10000;
 }
 
 .popup-content {
     background: #050a09;
-    border: 2px solid #00ffcc;
+    border: 2px solid #00ffcc; 
     padding: 30px;
-    border-radius: 12px;
-    width: 85%; /* Responsive width for mobile */
+    border-radius: 15px;
+    width: 85%;
     max-width: 350px;
     position: relative;
+    transition: border-color 0.4s ease;
     box-shadow: 0 0 40px rgba(0, 255, 204, 0.2);
 }
 
 #closeBtn {
     position: absolute;
-    top: 5px;
-    right: 10px;
+    top: 5px; right: 15px;
+    font-size: 35px;
+    color: inherit;
     cursor: pointer;
-    font-size: 40px; 
-    color: #00ffcc;
-    padding: 10px; 
 }
 
-/* Tablet & Desktop Adjustments */
-@media (min-width: 768px) {
-    h1 { font-size: 2.5rem; letter-spacing: 12px; }
-    .label { font-size: 13px; }
-    .popup-content { width: 360px; padding: 45px; }
+.popup-info p {
+    margin: 10px 0;
+    font-size: 15px;
 }
