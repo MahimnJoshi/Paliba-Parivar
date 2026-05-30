@@ -7,6 +7,16 @@ body {
     touch-action: none;
 }
 
+#tree {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: #000000;
+}
+
 .ui-overlay {
     position: absolute;
     top: 15px;
@@ -17,18 +27,61 @@ body {
 }
 
 h1 {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     font-weight: 900;
-    letter-spacing: 8px;
+    letter-spacing: 6px;
     background: linear-gradient(to right, #00ffcc, #00ffee);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0;
 }
 
+#search-container {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 1000;
+    width: 240px;
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px 12px;
+    background: rgba(5, 10, 9, 0.85);
+    border: 1px solid #00ffcc;
+    border-radius: 8px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 14px;
+    outline: none;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.1);
+}
+
+#search-results {
+    background: rgba(5, 10, 9, 0.95);
+    border-radius: 8px;
+    margin-top: 5px;
+    max-height: 180px;
+    overflow-y: auto;
+    border: 1px solid rgba(0, 255, 204, 0.3);
+}
+
+.search-item {
+    padding: 10px 15px;
+    font-size: 13px;
+    cursor: pointer;
+    color: #00ffcc;
+    transition: background 0.2s;
+}
+
+.search-item:hover {
+    background: rgba(0, 255, 204, 0.15);
+    color: #fff;
+}
+
 .label {
     color: #00ffcc;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 700;
     background: rgba(0, 15, 15, 0.95); 
     padding: 5px 12px;
@@ -36,6 +89,7 @@ h1 {
     border: 1px solid rgba(0, 255, 204, 0.6);
     white-space: nowrap;
     text-shadow: 0 0 5px rgba(0, 255, 204, 0.5);
+    pointer-events: none;
 }
 
 .partner-label {
@@ -58,24 +112,31 @@ h1 {
 .popup-content {
     background: #050a09;
     border: 2px solid #00ffcc; 
-    padding: 30px;
+    padding: 25px;
     border-radius: 15px;
     width: 85%;
-    max-width: 350px;
+    max-width: 320px;
     position: relative;
-    transition: border-color 0.4s ease;
-    box-shadow: 0 0 40px rgba(0, 255, 204, 0.2);
+    transition: border-color 0.4s ease, box-shadow 0.4s ease;
 }
 
 #closeBtn {
     position: absolute;
     top: 5px; right: 15px;
-    font-size: 35px;
+    font-size: 32px;
     color: inherit;
     cursor: pointer;
 }
 
 .popup-info p {
-    margin: 10px 0;
-    font-size: 15px;
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    h1 { font-size: 2.4rem; letter-spacing: 8px; }
+    #search-container { width: 280px; top: 25px; left: 25px; }
+    .label { font-size: 12px; }
+    .popup-content { max-width: 350px; padding: 30px; }
+    .popup-info p { font-size: 15px; margin: 10px 0; }
 }

@@ -20,11 +20,19 @@
         <p>3D Family Constellation</p>
     </header>
 
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search family member...">
+        <div id="search-results"></div>
+    </div>
+
     <div id="tree"></div>
 
     <div id="popup">
         <div class="popup-content">
             <span id="closeBtn" title="Close">&times;</span>
+            
+            <div id="p-memorial" style="display: none; font-size: 11px; letter-spacing: 2px; color: #ffffff; text-transform: uppercase; margin-bottom: 5px; opacity: 0.8; text-align: center;">✨ Forever Under Your Loving Blessings ✨</div>
+            
             <h3 id="p-name"></h3>
             
             <div id="partner-section" style="margin-bottom: 10px; font-style: italic; color: #ffcc00; display: none;">
@@ -36,7 +44,9 @@
                 <p><b>Age:</b> <span id="p-age"></span></p>
                 <p><b>Born:</b> <span id="p-born"></span></p>
                 <p id="death-row" style="display: none;"><b>Death:</b> <span id="p-death"></span></p>
-                <p><b>Occupation:</b> <span id="p-occupation"></span></p>
+                <p id="petname-row" style="display: none;"><b>Pet Name:</b> <span id="p-petname"></span></p>
+                <p id="place-row" style="display: none;"><b id="p-place-label">Current Base:</b> <span id="p-place"></span></p>
+                <p id="hobbies-row" style="display: none;"><b>Hobbies:</b> <span id="p-hobbies"></span></p>
             </div>
         </div>
     </div>
